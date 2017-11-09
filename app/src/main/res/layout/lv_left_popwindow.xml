@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/left_frame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cimg_left_user_icon_default"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/img_user_icon_default" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/cimg_left_user_icon_default"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv_left_user_info_login_username"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/user_login_sign_up_default"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/tv_left_user_info_login_userphone"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="phonenumber"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/left_line_01"
+            style="@style/LeftMenuLine"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/cimg_left_user_icon_default"/>
+        <LinearLayout
+            android:id="@+id/ll_left_res"
+            style="@style/LeftMenuList"
+            android:layout_below="@id/left_line_01">
+            <ImageView
+                android:background="@drawable/img_left_icon_res"
+                style="@style/LeftMenuImg" />
+            <TextView
+                android:text="@string/left_restaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:id="@+id/left_line_02"
+            style="@style/LeftMenuLine"
+            android:layout_below="@id/ll_left_res"/>
+        <LinearLayout
+            android:id="@+id/ll_left_order"
+            style="@style/LeftMenuList"
+            android:layout_below="@id/left_line_02">
+            <ImageView
+                android:background="@drawable/img_left_icon_order"
+                style="@style/LeftMenuImg"/>
+            <TextView
+                android:text="@string/left_current_orders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:id="@+id/left_line_03"
+            style="@style/LeftMenuLine"
+            android:layout_below="@id/ll_left_order"/>
+        <LinearLayout
+            android:id="@+id/ll_left_person"
+            style="@style/LeftMenuList"
+            android:layout_below="@id/left_line_03">
+            <ImageView
+                android:background="@drawable/img_left_icon_person"
+                style="@style/LeftMenuImg" />
+            <TextView
+                android:text="@string/left_personal_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:id="@+id/left_line_04"
+            style="@style/LeftMenuLine"
+            android:layout_below="@id/ll_left_person"/>
+        <LinearLayout
+            android:id="@+id/ll_left_custom"
+            style="@style/LeftMenuList"
+            android:layout_below="@id/left_line_04">
+            <ImageView
+                android:background="@drawable/img_left_icon_custom"
+                style="@style/LeftMenuImg" />
+            <TextView
+                android:text="@string/left_custom_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:id="@+id/left_line_05"
+            style="@style/LeftMenuLine"
+            android:layout_below="@id/ll_left_custom"
+            android:layout_marginBottom="80dp"/>
+
+        <Button
+            android:id="@+id/btn_left_user_exit"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/left_line_05"
+            android:text="@string/left_exit"
+            android:textColor="#fff"
+            android:background="@drawable/shape_left_exit"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:textAllCaps="false"/>
+        <LinearLayout
+            android:id="@+id/ll_yuyan"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp">
+            <TextView
+                android:id="@+id/tv_left_chinese"
+                android:text="@string/chinese"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+            <View
+                android:background="@color/listLine"
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/tv_left_en"
+                android:text="@string/EN"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--首页相关-->
+    <dimen name="slidingmenu_offset">150dp</dimen>
+    <dimen name="shadow_width">0dp</dimen>
+
+    <dimen name="sort_item_paddingTopAndBottom">10dp</dimen>
+    <dimen name="sort_item_marginBottom">10dp</dimen>
+
+    <dimen name="lable_marginRight">10dp</dimen>
+    <dimen name="listLine_vertical_height">20dp</dimen>
+    <dimen name="listLine_vertical_marginLeft">10dp</dimen>
+    <dimen name="listLine_vertical_marginRight">10dp</dimen>
+    <dimen name="listLine_horizontal_marginTop">15dp</dimen>
+    <dimen name="listLine_horizontal_marginBottom">5dp</dimen>
+
+    <dimen name="listItem_marginTop">10dp</dimen>
+    <dimen name="listItem_marginBottom">10dp</dimen>
+    <dimen name="listItem_marginLeftAndRight">10dp</dimen>
+
+    <!--左抽屉相关-->
+    <dimen name="left_img_marginLeft">20dp</dimen>
+    <dimen name="left_img_marginRight">18dp</dimen>
+</resources>

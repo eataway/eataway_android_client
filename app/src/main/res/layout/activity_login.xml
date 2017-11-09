@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/rl_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/commend_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="ContentDescription" />
+
+    <com.australia.administrator.australiandelivery.view.TopBar
+        android:id="@+id/tb_login_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/login_logo"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/tb_login_activity"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iv_login_logo"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_login_logo"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/dimen_18_dip"
+        android:text="EatAway"
+        android:textSize="@dimen/dimen_30_dip"/>
+    <LinearLayout
+        android:id="@+id/ll_login_bottom_btns"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:text="@string/login_my"
+            android:textColor="@color/text_black"
+            android:background="@drawable/bg_login_bt"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:id="@+id/bt_login_release"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dimen_40_dip"
+            android:text="@string/release_my"
+            android:textColor="@color/text_black"
+            android:background="@drawable/bg_login_bt"
+            android:layout_marginLeft="5dp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_login_facebook"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_login_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/ll_login_bottom_btns">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FaceBook"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:id="@+id/tv_login_face"
+            android:layout_marginLeft="30dp"/>
+        <ImageView
+            android:layout_toLeftOf="@id/tv_login_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/commend_login_facebook"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_login_weixin"
+        android:orientation="horizontal"
+        android:layout_above="@id/rl_login_facebook"
+        android:background="@drawable/bg_login_weixin"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wei_xin"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:id="@+id/tv_login_weixin"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"/>
+        <ImageView
+            android:layout_toLeftOf="@id/tv_login_weixin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/commend_login_wechat"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/rl_login_weixin"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tui_jian_deng_lu"
+        android:textColor="#b2b2b2"
+        android:textSize="12sp"/>
+    <LinearLayout
+        android:id="@+id/ll_activity_login_language"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:id="@+id/tv_login_ch"
+            android:text="@string/chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#797979"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <TextView
+            android:id="@+id/tv_login_en"
+            android:text="@string/EN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_newsdetails"
+        android:background="#50000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <ProgressBar
+            android:layout_centerInParent="true"
+            android:id="@+id/pb_newsdetails"
+            style="?android:progressBarStyleInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

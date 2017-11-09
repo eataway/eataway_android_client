@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/list_line">
+
+    <com.australia.administrator.australiandelivery.view.TopBar
+        android:id="@+id/tb_pay_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+    </com.australia.administrator.australiandelivery.view.TopBar>
+    <RelativeLayout
+        android:id="@+id/rl_yinhangka"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_marginBottom="15dp">
+        <ImageView
+            android:id="@+id/iv_yinhangka_left"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/yinhangka" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/xin_yong_ka"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"
+            android:layout_toRightOf="@id/iv_yinhangka_left"/>
+        <ImageView
+            android:id="@+id/iv_yinghangka_right"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/iv_back_order"/>
+        <ImageView
+            android:id="@+id/iv_yinghangka_right1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/iv_yinghangka_right"
+            android:src="@mipmap/yinhangkaa"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/iv_yinghangka_right1"
+            android:src="@mipmap/yinhangkab"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_weixin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/iv_weixin_left"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/weixinpay"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="微信支付"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"
+            android:layout_toRightOf="@id/iv_weixin_left"/>
+        <!--<CheckBox-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:button="@null"-->
+            <!--android:checked="false"-->
+            <!--android:background="@drawable/bg_release_cb"-->
+            <!--/>-->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_zhifubao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_zhifubao_left"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/zhifubaopay" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/iv_zhifubao_left"
+            android:gravity="center_vertical"
+            android:text="支付宝支付"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <!--<CheckBox-->
+        <!--android:button="@null"-->
+        <!--android:checked="false"-->
+        <!--android:background="@drawable/bg_release_cb"-->
+        <!--android:layout_width="20dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_centerVertical="true"/>-->
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.australia.administrator.australiandelivery.view.TopBar
+        android:id="@+id/tb_login_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.australia.administrator.australiandelivery.view.TopBar>
+
+    <ImageView
+        android:id="@+id/iv_login_login_logo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/tb_login_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/login_logo" />
+
+    <TextView
+        android:id="@+id/tv_login_login_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_login_login_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="EatAway"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_login_release_user"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_login_login_logo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_login_login_name">
+
+        <ImageView
+            android:id="@+id/iv_login_login_user"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/login_icon_user" />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/et_login_release_user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_10_dip"
+            android:layout_toRightOf="@id/iv_login_login_user"
+            android:background="#00000000"
+            android:hint="@string/please_enter_the_cell_phone_number"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_login_release_code"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/rl_login_release_user"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_login_login_name">
+
+        <ImageView
+            android:id="@+id/iv_login_release_code"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/regist_icon_user" />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/et_login_release_code"
+            android:layout_width="wrap_content"
+            android:minWidth="@dimen/dimen_200_dip"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/iv_login_release_code"
+            android:background="#00000000"
+            android:hint="@string/enter_the_captcha"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tv_release_get_code"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:text="@string/get_verification_code"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/shape_gray_half_corner_default"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_login_release_p"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/rl_login_release_code"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_login_login_name">
+
+        <ImageView
+            android:id="@+id/iv_login_release_p"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/login_icon_password" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/et_login_release_p"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/iv_login_release_p"
+            android:background="#00000000"
+            android:hint="@string/please_enter_the_password"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+    <RelativeLayout style="@style/Login_RelativeLayout"
+        android:id="@+id/rl_login_release_p_again"
+        android:layout_below="@id/rl_login_release_p"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/iv_login_release_p_again"
+            android:src="@mipmap/login_icon_password"
+            style="@style/Login_ImageView"/>
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/et_login_release_p_again"
+            android:layout_toRightOf="@id/iv_login_release_p_again"
+            android:hint="@string/please_enter_the_password"
+            style="@style/Login_EditView"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_login_release"
+        android:layout_below="@id/rl_login_release_p_again"
+        android:background="@drawable/bg_login_weixin"
+        android:text="@string/confirm"
+        android:layout_marginTop="20dp"
+        style="@style/Login_Button"/>
+</RelativeLayout>

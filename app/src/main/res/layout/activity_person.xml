@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PageBackgroud"
+    tools:context="com.australia.administrator.australiandelivery.activity.PersonActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_person_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/img_person_bg">
+        <ImageView
+            android:id="@+id/img_person_back_icon"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:background="@drawable/img_back_icon_white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cimg_person_user_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/img_user_icon_default" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/cimg_person_user_icon">
+
+            <TextView
+                android:id="@+id/tv_person_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_person_user_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@id/tv_person_user_name"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="5dp"
+                android:layout_height="10dp"
+                android:background="@drawable/img_icon_more_white"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="3dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="40dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/rl_person_address"
+        style="@style/PersonPageList">
+        <ImageView
+            android:id="@+id/img_person_address_icon"
+            android:background="@drawable/img_person_address"
+            style="@style/PersonPageListIcon" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/person_address"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_person_address_icon"
+            android:gravity="center_vertical"/>
+        <ImageView style="@style/PersonPageMoreIcon"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_person_order"
+        style="@style/PersonPageList">
+        <ImageView
+            android:id="@+id/img_person_order_icon"
+            android:background="@drawable/img_person_order"
+            style="@style/PersonPageListIcon" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/person_order"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_person_order_icon"
+            android:gravity="center_vertical"/>
+        <ImageView style="@style/PersonPageMoreIcon"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_person_joinus"
+        style="@style/PersonPageList">
+        <ImageView
+            android:id="@+id/img_person_joinus_icon"
+            android:background="@drawable/img_person_joinus"
+            style="@style/PersonPageListIcon"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/person_joinus"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_person_joinus_icon"
+            android:gravity="center_vertical"/>
+        <ImageView style="@style/PersonPageMoreIcon"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_person_advice"
+        style="@style/PersonPageList"
+        android:layout_marginBottom="15dp">
+        <ImageView
+            android:id="@+id/img_person_advice_icon"
+            android:background="@drawable/img_person_advice"
+            style="@style/PersonPageListIcon"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/person_advice"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_person_advice_icon"
+            android:gravity="center_vertical"/>
+        <ImageView style="@style/PersonPageMoreIcon"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/rl_person_share"
+        style="@style/PersonPageList">
+        <ImageView
+            android:id="@+id/img_person_share_icon"
+            android:background="@drawable/img_person_share"
+            style="@style/PersonPageListIcon"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/person_share"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_person_share_icon"
+            android:gravity="center_vertical"/>
+        <ImageView style="@style/PersonPageMoreIcon"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_person_aboutus"
+        style="@style/PersonPageList">
+        <ImageView
+            android:id="@+id/img_person_aboutus_icon"
+            android:background="@drawable/img_person_aboutus"
+            style="@style/PersonPageListIcon"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/person_aboutus"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_person_aboutus_icon"
+            android:gravity="center_vertical"/>
+        <ImageView style="@style/PersonPageMoreIcon"/>
+    </RelativeLayout>
+</LinearLayout>

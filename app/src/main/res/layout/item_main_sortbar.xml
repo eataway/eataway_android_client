@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/sort_item_paddingTopAndBottom"
+    android:paddingBottom="@dimen/sort_item_marginBottom"
+    android:layout_marginBottom="@dimen/sort_item_marginBottom"
+    android:gravity="center"
+    android:background="#fff">
+    <TextView
+        android:id="@+id/sort_default"
+        android:text="@string/sort_bar_default"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="@color/text_black"/>
+    <TextView
+        android:id="@+id/sort_recommend"
+        android:text="@string/sort_bar_recommend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="@color/list_line"/>
+    <TextView
+        android:id="@+id/sort_distance"
+        android:text="@string/sort_bar_distance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="@color/list_line"/>
+    <TextView
+        android:id="@+id/sort_sale"
+        android:text="@string/sort_bar_sale"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="@color/list_line"/>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_line"
+    tools:context="com.australia.administrator.australiandelivery.activity.AboutUsActivity">
+    <com.australia.administrator.australiandelivery.view.TopBar
+        android:id="@+id/tb_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+    <ImageView
+        android:id="@+id/iv_about_us_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/login_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/tb_about_us"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/iv_about_us_logo">
+        <TextView
+            android:id="@+id/tv_version"
+            android:text="@string/ban_ben_hao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+   <TextView
+       android:layout_alignParentBottom="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_margin="10dp"
+       android:text="@string/you_feng"
+       android:textSize="12sp"
+       android:textColor="@color/text_gray"/>
+</RelativeLayout>

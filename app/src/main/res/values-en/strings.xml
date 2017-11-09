@@ -1,0 +1,228 @@
+<resources>
+    <string name="tui_jian_deng_lu">Recommended login</string>
+    <string name="app_name">EatAway</string>
+    <string name="wei_xin">WeChat</string>
+    <string name="ke_fu_re_xian"> Customer Hotline</string>
+    <string name="tui_dan_zhong">Refunding</string>
+    <string name="wen_xin_ti_shi">Kindly Reminder</string>
+    <string name="zhu_yi">Take care</string>
+    <string name="qing_zhuan_ren_gong_ke_fu">When you don\'t reply to the online customer service, you can select the manual customer service phone at the upper right corner</string>
+    <string name="fu_wu_shi_jian">Our service hours are from Monday to Friday at 7:00~21:00. If you have an emergency, you can give feedback at the personal center and leave your questions. We will take care of it</string>
+    <string name="yi_tui_dan">Refunded</string>
+    <string name="shang_jia_wei_zhi">Business Location</string>
+    <string name="ban_ben_hao">Version</string>
+    <string name="you_feng">You Feng Internet Technology Co,Ltd</string>
+    <string name="qing_shu_ru_que_ren_mi_ma">Confirm password</string>
+    <string name="huo_qu_lu_yin_quan_xian">Failed to obtain record and location rights. Please open manually</string>
+    <string name="qing_shua_xin_lie_biao">The restaurant is not open. Please refresh the list and try again</string>
+    <string name="mei_ding_dan">You has no order now</string>
+    <string name="mei_ping_jia">The shop has no comment</string>
+    <string name="xian_sheng">Male</string>
+    <string name="qu_xiao_ding_dan">Order cancled</string>
+    <string name="nv_shi">Female</string>
+    <string name="yong_hu_xie_yi">User Protocol</string>
+    <string name="qing_xuan_ze_zhi_fu_fang_shi">Please select your payment</string>
+    <string name="bao_cun_cheng_gong">Save successed</string>
+    <string name="mi_ma_chang_du">Password lengh must be over 6 numbers</string>
+    <string name="yi_shou_wan">Sold out</string>
+    <string name="fen">each</string>
+    <string name="xin_yong_ka">Bank card</string>
+    <string name="zhu_ce_cheng_gong">Regisit successed</string>
+    <string name="zhi_fu_bao_zhi_fu">Alipay</string>
+    <string name="wei_xin_zhi_fu">WeChat</string>
+    <string name="qing_xie_xia_nin_de_kou_wei_bei_zhu">Please write a note to your taste</string>
+    <string name="wang_ji_mi_ma">Forgot password</string>
+    <string name="dian_ci_zhu_ce">Register</string>
+    <string name="di_san_fang_deng_lu">the third party</string>
+    <string name="shang_pin">Order</string>
+    <string name="xiang_qing">About us</string>
+    <string name="shang_jia_ru_zhu">Create a business account</string>
+    <string name="di_yi_bu">First</string>
+    <string name="di_er_bu">Second</string>
+    <string name="di_san_bu">Third</string>
+    <string name="di_si_bu">Fourth</string>
+    <string name="xia_zai_zhu_ce_EatAway">Download the EatAway business app and make a username and password</string>
+    <string name="shang_hu_duan_shen_qing_ren_zheng">Apply for certification</string>
+    <string name="deng_dai_ping_tai_ren_yuan">Waiting for us to approve your certification</string>
+    <string name="qian_yue_shang_xian">Start using the business app to get more customers and increase revenue!</string>
+    <string name="xia_zai_shang_jia_duan">Download business app</string>
+    <string name="chao_chu_zui_da_pei_song_ju_li">Delivery distance exceeded</string>
+    <string name="shang_dian_wei_ying_ye">This restautant is not open,please refresh your home list</string>
+    <string name="xiu_gai_di_zhi">Change Address</string>
+    <string name="shan_chu_di_zhi">Delete Address</string>
+    <string name="chong_zhi_mi_ma">Reset Password</string>
+    <string name="gai_shou_ji_wei_zhu_ce">The number is not registered</string>
+    <string name="chong_xin_fa_song">Resend</string>
+    <string name="zong_jin_e">Total:</string>
+    <string name="ti_jiao_ding_dan">Place order</string>
+    <string name="ti_jiao_ding_dan_title">Submit Orders</string>
+
+    <string name="qing_qiu_cheng_gong">Request successed</string>
+    <string name="qing_qiu_shi_bai">Request failed</string>
+    <string name="ping_jia_cheng_gong">Review successed</string>
+    <string name="ping_jia_shi_bai">Review failed</string>
+    <string name="ping_jia_bu_neng_wei_kong">Review can not empty</string>
+    <string name="dang_qian_ding_dan">Current order</string>
+    <string name="ping_jia">Reviews</string>
+    <string name="ni_ming_ping_jia">Anonymous</string>
+    <string name="wei_dao_ru_he">How does it taste?Is the service good? Share it!</string>
+
+    <string name="contacts">Contacts</string>
+    <string name="name">Name:</string>
+    <string name="please_fill_in_the_consignee_name">Enter first name</string>
+    <string name="phone">Phone:</string>
+    <string name="shopping_address">Delivery address</string>
+    <string name="address_community">District/Building/School:</string>
+    <string name="jie_dao_di_zhi">House number:(Optional)</string>
+    <string name="click_on_the_select">Select</string>
+    <string name="address_house">Example:Room 3,building 306</string>
+    <string name="save">OK</string>
+    <string name="save_fall">Save failed</string>
+
+    <string name="settlement">Checkout</string>
+    <string name="shopping_cart">Cart</string>
+    <string name="register_user_info">User info</string>
+    <string name="register_up">Register</string>
+    <string name="register_girl">Female</string>
+    <string name="register_boy">Male</string>
+    <string name="register_UserID">UserID can not change</string>
+    <string name="tpl_no_sdcard">sdcard are not exist</string>
+    <string name="register_success">Register successed</string>
+    <string name="register_failed">Register failed</string>
+    <string name="register_key_user_icon">Avatar:</string>
+    <string name="register_key_user_name">Name:</string>
+    <string name="register_key_user_gender">Sex:</string>
+    <string name="register_key_user_UID">U I D:</string>
+    <string name="register_key_user_mail">Mail:</string>
+    <string name="register_key_user_password">Password:</string>
+    <string name="delivery">Delivery fee</string>
+    <string name="taste_notes">Remarks</string>
+    <string name="method_of_payment">Payment</string>
+    <string name="please_select_ocation">Please select the location</string>
+    <string name="the_delivery_time">Delivery time:ASAP</string>
+    <string name="the_delivery_time1">Delivery time:</string>
+    <string name="login_agin">Please Login again</string>
+    <string name="guan">Control</string>
+    <string name="chao_chu_pei_song">Out of distance</string>
+    <string name="xuan_ze_di_zhi">Select Address</string>
+    <string name="xiu_gai_cheng_gong">Change successed</string>
+    <string name="xiu_gai_shi_bai">Change failed</string>
+
+    <string name="get_verification_code">Send Code</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="password_again">Password Again</string>
+    <string name="enter_the_captcha">Verification code</string>
+    <string name="phone_number">Phone number</string>
+    <string name="please_enter_the_cell_phone_number">Enter phone number</string>
+    <string name="please_enter_the_password">Password</string>
+    <string name="click_login">Login</string>
+    <string name="please_choos_address">Select address</string>
+    <string name="new_shipping_address">New address</string>
+    <string name="release_my">Register</string>
+    <string name="login_my">Login</string>
+    <string name="read_and_agreed">I have read and agreed</string>
+    <string name="the_terms_of_service">&#060;EatAway terms of service&#062;</string>
+    <string name="EN">EN</string>
+    <string name="chinese">中</string>
+    <string name="get_the_captcha_successfully">Get the captcha successfully</string>
+    <string name="please_enter_the_verification_code">Verification code</string>
+    <string name="the_password_input_is_inconsistent_twice">the_password_input_is_inconsistent_twice</string>
+    <string name="please_check_your_network_connection">Please check your network connection</string>
+    <string name="Request_location_permission">Application request your location permission</string>
+    <string name="Request_Photo_permission">Application request your photo permission</string>
+    <string name="Please_Log_on_again">Your session has time out, please log on again</string>
+    <string name="xuan_ze_zhi_fu_fang_shi">Payment methods</string>
+
+
+    <!--首页相关-->
+    <string name="sort_bar_default">Best Match</string>
+    <string name="sort_bar_recommend">Suggested</string>
+    <string name="sort_bar_distance">Nearest</string>
+    <string name="sort_bar_sale">Most popular</string>
+
+    <!--搜索相关-->
+    <string name="search_bar">Search bar</string>
+    <string name="search_cancel">cancel</string>
+    <!--左抽屉-->
+    <string name="user_login_sign_up_default">Login/Register</string>
+    <string name="left_exit">Logout</string>
+    <string name="left_restaurant">Restaurant</string>
+    <string name="left_current_orders">Current order</string>
+    <string name="left_personal_center">Personal center</string>
+    <string name="left_custom_service">Customer service</string>
+    <!--客服聊天-->
+    <string name="call_version_inconsistent">Both call version are inconsistent</string>
+
+    <!--个人中心相关-->
+    <string name="person_address">Delivery address</string>
+    <string name="person_order">My orders</string>
+    <string name="person_joinus">Create a business account</string>
+    <string name="person_advice">Feedback</string>
+    <string name="person_setting">Settings</string>
+    <string name="person_share">Share</string>
+    <string name="person_share_to">Share</string>
+    <string name="person_share_to_friends">Friends</string>
+    <string name="person_share_to_moments">Moments</string>
+    <string name="person_share_to_cancel">Cancel</string>
+    <string name="person_aboutus">About us</string>
+    <string name="person_userinfo">User info</string>
+    <string name="person_userinfo_phone_change_et">Phone Number</string>
+    <string name="person_userinfo_phone_change_tv">Enter the number of the phone you want to bind</string>
+    <string name="person_userinfo_phone_change_title">Change Mobile</string>
+    <string name="person_userinfo_phone_change_btn">Get SMS verification code</string>
+    <string name="Linked_this_phone_number">You\'ve linked this phone number</string>
+    <string name="person_userinfo_phone_change_input_code">Enter code</string>
+    <string name="confirm">Confirm</string>
+    <string name="code">Code</string>
+    <string name="send">Send</string>
+    <string name="person_resend">Resend</string>
+    <string name="Publication">Publication</string>
+    <string name="Give_FeedBack_here">If you have any comments or suggestions, leave feedback here ( If you are WeChat or FaceBook user, Please leave your phone number )...</string>
+    <string name="Give_FeedBack_unsuccessfully">Feedback unsuccessfully!</string>
+    <string name="Enter_empty">Enter empty!</string>
+    <string name="Format_error">Format error</string>
+    <string name="Number_registered">Number registered</string>
+
+    <!--用户信息二级页-->
+    <string name="person_userinfo_changeicon">Modify avatar</string>
+    <string name="person_userinfo_changeusername">Modify user name</string>
+    <string name="person_userinfo_changephone">Modify phone number</string>
+    <string name="person_userinfo_exit">Logout</string>
+    <string name="change_successfully">Change Successfully</string>
+    <string name="change_unsuccessfully">Change UnSuccessfully</string>
+    <string name="user_name">Username</string>
+    <string name="please_enter_your_username">Please enter your username</string>
+
+
+
+    <!--订单相关-->
+    <string name="person_order_title">My order</string>
+    <string name="order_order_time">Order time:</string>
+    <string name="zong_ji">Total</string>
+    <string name="order_contact_pre">Return form please</string>
+    <string name="order_contact_url">Contact the seller</string>
+    <string name="order_reviews">Go to reviews</string>
+    <string name="order_myreviews">Reviewed</string>
+    <!--订单详情页-->
+    <string name="order_detail_completion_of_order">Completion of order</string>
+    <string name="order_detail_contact_us">Please contact us at the top right corner if you have questions</string>
+    <string name="delivery_time">Delivery time</string>
+    <string name="order_number">Order number</string>
+    <string name="delivery_address">Delivery address</string>
+    <string name="remarks">Remarks</string>
+    <string name="other_information">Other information</string>
+
+    <string name="order_buyagain">Buy again</string>
+    <string name="order_waiting_seller">Order processing</string>
+    <string name="order_seller_order">Order is being prepared</string>
+    <string name="order_seller_delivered">Order has been delivered</string>
+    <string name="order_receipt">Receipt</string>
+    <string name="order_finish">Finish</string>
+    <string name="order_delivery_fee">Delivery fee</string>
+    <string name="order_distance">Distance</string>
+    <string name="thank_you_for_comments">Thank you for your comments on our service</string>
+    <string name="content_cannot_be_empty">Content cannot be empty</string>
+    <string name="Order_details">Order details</string>
+
+    <string name="mei_you_zhao_dao_xiang_guan">The restaurant is not found</string>
+</resources>

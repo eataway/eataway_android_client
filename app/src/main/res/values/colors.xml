@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#30b93f</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="text_login_gray">#cccccc</color>
+    <color name="text_login_back">#f7f7f7</color>
+    <color name="text_login_login_gray">#b2b2b2</color>
+    <color name="app_textcolor">#9ad338</color>
+    <color name="app_hui">#DADADA</color>
+    <color name="app_bg_topbar">#F7F7F7</color>
+
+    <!--全局相关-->
+    <color name="PageBackgroud">#f1f1f1</color>
+    <color name="actionBar">#9ad338</color>
+
+    <!--首页相关-->
+    <color name="color_333">#333333</color>
+    <color name="color_999">#999999</color>
+    <color name="listLine">#ebebeb</color>
+    <color name="consumer_bg">#f3f3f3</color>
+    <color name="user_center_divide_line">#dcdcdc</color>
+    <color name="user_center_black_text">#85313131</color>
+    <color name="red">#FF0000</color>
+    <color name="shopping_cart_bg">#DC5914</color>
+    <color name="benefit_style">#EB6100</color>
+    <color name="left_list">#F4F4F5</color>
+    <color name="lightgray">#D3D3D3</color>
+    <color name="order_orange">#ffa217</color>
+    <color name="order_red">#dc0000</color>
+
+    <color name="color_blue">#3d8fe3</color>
+    <color name="color_white">#fff</color>
+    <color name="color_orange">#ffa217</color>
+    <color name="color_gray">#f1f1f1</color>
+    <color name="text_black">#333333</color>
+    <color name="text_gray">#999999</color>
+    <color name="list_line">#ebebeb</color>
+    <color name="color_red">#fc4141</color>
+    <color name="tou_ming">#00000000</color>
+
+    <color name="tabIndicatorColor">#3F51B5</color>
+    <color name="tabSelectedTextColor">#3F51B5</color>
+    <color name="tabTextColor">#000000</color>
+    <color name="goods_category_bg">#F2F2F2</color>
+    <color name="color_divider">#D2D2D2</color>
+    <color name="color_666">#666666</color>
+    <color name="color_d2">#D2D2D2</color>
+    <color name="goods_category_dirver">#FF8A17</color>
+    <color name="shop_cart_bg">#aa000000</color>
+    <color name="touming">#00000000</color>
+
+</resources>

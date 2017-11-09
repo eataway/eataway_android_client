@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PageBackgroud"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    tools:context="com.australia.administrator.australiandelivery.activity.PersonUserInfoActivity">
+    <com.australia.administrator.australiandelivery.view.TopBar
+        android:id="@+id/tp_person_userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.australia.administrator.australiandelivery.view.TopBar>
+
+    <RelativeLayout android:id="@+id/rl_person_userinfo_changeicon"
+        style="@style/PersonPageList">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/person_userinfo_changeicon"
+            android:layout_centerVertical="true" />
+        <ImageView
+            android:id="@+id/img_userinfo_detail01"
+            android:background="@drawable/img_icon_more_gray"
+            style="@style/PersonPageMoreIcon"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cimg_person_userinfo_usericon"
+            android:layout_toLeftOf="@id/img_userinfo_detail01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_person_userinfo_changeusername"
+        style="@style/PersonPageList">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/person_userinfo_changeusername"
+            android:layout_centerVertical="true" />
+        <ImageView
+            android:id="@+id/img_userinfo_detail02"
+            android:background="@drawable/img_icon_more_gray"
+            style="@style/PersonPageMoreIcon"/>
+        <TextView
+            android:id="@+id/tv_person_userinfo_username"
+            android:layout_toLeftOf="@id/img_userinfo_detail02"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_person_userinfo_changephone"
+        style="@style/PersonPageList"
+        android:layout_marginBottom="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/person_userinfo_changephone"
+            android:layout_centerVertical="true" />
+        <ImageView
+            android:id="@+id/img_userinfo_detail03"
+            android:background="@drawable/img_icon_more_gray"
+            style="@style/PersonPageMoreIcon"/>
+        <TextView
+            android:id="@+id/tv_person_userinfo_userphone"
+            android:layout_toLeftOf="@id/img_userinfo_detail03"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_person_userinfo_exit"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="@string/person_userinfo_exit"
+        android:background="@drawable/shape_person_userinfo_exit" />
+</LinearLayout>

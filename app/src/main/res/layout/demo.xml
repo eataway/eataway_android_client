@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/toolBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/shopCartMain"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/user_center_black_text"
+                android:layout_alignParentBottom="true">
+                <TextView
+                    android:id="@+id/totalPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:id="@+id/settlement"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/order_orange"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/settlement"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:id="@+id/minPrice"
+                    android:text="还差$10"
+                    android:textColor="#484848"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:layout_toLeftOf="@id/settlement"
+                    android:layout_toRightOf="@id/totalPrice"
+                    android:layout_marginRight="20dp"/>
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/shopping_cart"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:src="@mipmap/shopping" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/shopCartNum"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="43dp"
+                android:background="@drawable/shape_shopping_cart"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

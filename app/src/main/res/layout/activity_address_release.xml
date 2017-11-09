@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#30efefef"
+    android:orientation="vertical">
+
+    <com.australia.administrator.australiandelivery.view.TopBar
+        android:id="@+id/tb_address_release"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.australia.administrator.australiandelivery.view.TopBar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/contacts"
+        android:textColor="@color/text_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/name"
+            android:textColor="@color/text_black" />
+
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:id="@+id/et_add_address_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:hint="@string/please_fill_in_the_consignee_name"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/rg_add_address"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_add_address_nan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/xian_sheng" />
+
+            <RadioButton
+                android:id="@+id/rb_add_address_nv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/nv_shi" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/phone"
+            android:textColor="@color/text_black" />
+
+        <EditText
+            android:inputType="number"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/et_add_address_phone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:hint="@string/please_enter_the_cell_phone_number"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/shopping_address" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/address_community"
+            android:textColor="@color/text_black"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/et_add_address_community"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:hint="@string/address_community"
+            android:singleLine="true" />
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/jie_dao_di_zhi"
+            android:textColor="@color/text_black"
+            android:visibility="gone"/>
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:id="@+id/et_add_address_num"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:hint="@string/jie_dao_di_zhi"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</LinearLayout>

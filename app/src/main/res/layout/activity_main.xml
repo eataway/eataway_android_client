@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PageBackgroud"
+    tools:context=".activity.MainActivity">
+
+    <include android:id="@+id/activity_main_action_bar"
+        layout="@layout/layout_actionbar_mainpage"/>
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:fitsSystemWindows="false">
+        <include layout="@layout/item_main_sortbar"
+            android:id="@+id/lv_sortbar"
+            android:visibility="gone"/>
+        <com.ajguan.library.EasyRefreshLayout
+            android:id="@+id/er_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.ajguan.library.EasyRefreshLayout>
+        <ImageView
+            android:id="@+id/iv_main"
+            android:visibility="gone"
+            android:src="@mipmap/login_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </FrameLayout>
+</LinearLayout>

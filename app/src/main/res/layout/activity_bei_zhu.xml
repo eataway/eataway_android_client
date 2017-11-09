@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.australia.administrator.australiandelivery.activity.FeedBackActivity"
+    android:background="@color/PageBackgroud"
+    android:paddingBottom="20dp">
+    <com.australia.administrator.australiandelivery.view.TopBar
+        android:id="@+id/tp_activity_feed_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/et_activity_feed_back"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:hint="@string/qing_xie_xia_nin_de_kou_wei_bei_zhu"
+        android:textSize="15sp"
+        android:gravity="top"
+        android:padding="10dp"
+        android:layout_below="@id/tp_activity_feed_back"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:id="@+id/btn_activity_feed_back"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/confirm"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_orange"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+</RelativeLayout>
