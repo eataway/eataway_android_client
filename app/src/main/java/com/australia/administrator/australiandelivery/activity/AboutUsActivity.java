@@ -12,7 +12,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 public class AboutUsActivity extends com.australia.administrator.australiandelivery.comm.BaseActivity {
-    private final String VERSION = "v1.0.6";
+    private final String VERSION = "v1.0.";
 
     @Bind(R.id.tb_about_us)
     TopBar tbAboutUs;
